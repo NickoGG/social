@@ -1,8 +1,8 @@
 from flask import render_template
-from app import app
+from app import apl
 
-@app.route('/')
-@app.route('/index')
+@apl.route('/')
+@apl.route('/index')
 def index():
     user = {'username': 'Nicko'}
     posts = [
